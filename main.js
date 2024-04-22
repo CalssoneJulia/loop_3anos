@@ -8,7 +8,7 @@ function verificarTime() {
     var respostaTime = prompt("Qual filósofo acredita que tudo flui?");
 
     
-    if (respostaTime.toLowerCase() === "Heráclito de Éfeso") { 
+    if (respostaTime.toLowerCase() === "Heráclito de Efeso") { 
      alert("Correto! pronto para outra pergunta?");
     continuarPerguntando = false; // sai do loop após a resposta correta 
      }  else {
