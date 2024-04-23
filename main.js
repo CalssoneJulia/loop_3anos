@@ -9,10 +9,10 @@ function verificarTime() {
 
     
     if (respostaTime.toLowerCase() === "Heráclito de Efeso") { 
-     alert("Correto! pronto para outra pergunta?");
+     alert("Correto! Você é muito bom nisso!");
     continuarPerguntando = false; // sai do loop após a resposta correta 
      }  else {
-      alert("Não é isso! Tente novamente.")
+      alert("Não é isso! Vamos tentar de novo? Você consegue.")
      }
    }    
 }
